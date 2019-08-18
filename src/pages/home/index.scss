@@ -1,0 +1,41 @@
+@import "../../styles/variables.scss";
+
+page {
+  background-color: $color-white;
+}
+
+.panel--first:after {
+  border-top-width: 0 !important;
+}
+
+.my-panel {
+  &:after {
+    border-bottom-width: 0 !important;
+  }
+}
+
+.menu-box {
+  display: flex;
+  align-items: center;
+  border-bottom: 20px solid #efefef;
+}
+.menu-item {
+  flex: 1;
+  text-align: center;
+  list-style: none;
+  margin: 10px 0;
+}
+.iconfont {
+  margin: 4px auto;
+  border-radius: 50%;
+  font-size: 44px;
+}
+.add-icon {
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+}
+.menu-text {
+  font-size: 24px;
+  color: #666;
+}

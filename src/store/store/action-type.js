@@ -1,0 +1,1 @@
+export const GET_FIRST_CATEGROY_LIST = "CATEGROY_LIST";

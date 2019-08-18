@@ -1,0 +1,30 @@
+.success {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: #eee;
+    .success-icon {
+        margin-top: 200px;
+        border-radius: 20px;
+    }
+    .success-text {
+        font-size: 32px;
+        color: #666;
+        padding: 0 50px;
+        margin: 20px 0 60px;
+    }
+    .action-btn {
+        width: 600px;
+        background: #f2f2f2;
+        border: 1px solid #45a485;
+        color: #45a485;
+        margin: 20px;
+    }
+    .success-btn {
+        background: #45a485;
+        color: #fff;
+    }
+}

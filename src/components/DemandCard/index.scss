@@ -1,0 +1,58 @@
+.content-card {
+  border-bottom: 20px solid #eff5f9;
+  background: #fff;
+  .header {
+    display: flex;
+    padding: 10px 20px;
+  }
+  .header-bd {
+    flex: 1;
+    text-align: left;
+    margin-left: 20px;
+    .title {
+      margin-top: 10px;
+      font-size: 28px;
+      color: #333;
+      display: block;
+    }
+    .desc {
+      font-size: 24px;
+      color: #666;
+    }
+  }
+  .strong {
+    font-size: 32px;
+    color: #f7a52e;
+  }
+  .image-box {
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-start;
+    .image-item {
+      width: 30%;
+      margin: 2%;
+    }
+  }
+  .content {
+    padding: 0 20px;
+    color: #666;
+    font-size: 24px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  .footer {
+    padding: 10px 0;
+    margin: 20px;
+    border-top: 1px solid #eee;
+    font-size: 24px;
+    color: #45a458;
+    text-align: left;
+    .split-line {
+      margin: 0 20px;
+    }
+  }
+}

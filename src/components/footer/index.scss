@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  background: #fff;
+  .ft-item {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #333;
+    border-right: 1px solid #eee;
+    .iconfont {
+      font-size: 32px;
+      height: 2em;
+      color: #999;
+      margin-right: 10px;
+    }
+    &.flex {
+      flex: 1;
+      background: #43a685;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.category-card {
+  display: inline-block;
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  text-align: center;
+  box-sizing: border-box;
+  .category-logo {
+    width: 100%;
+  }
+  .category-name {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+}

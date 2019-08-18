@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "./dist",
+  "projectname": "taro-library",
+  "description": "Taro图书小程序",
+  "appid": "wx5b8cfa452106035c",
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}
